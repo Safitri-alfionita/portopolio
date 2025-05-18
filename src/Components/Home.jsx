@@ -17,6 +17,7 @@ function Home() {
 
       <div className="home-image">
        <img src="/assets/portopolio.jpeg" alt="Foto Profil Safitri" />
+
       </div>
     </section>
   );
