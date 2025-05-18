@@ -1,0 +1,50 @@
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem 2rem;
+  background-color: #C0C0C0;
+  border-radius: 0; /* Hilangkan radius kalau ingin edge to edge */
+  width: 100vw; /* Ambil seluruh lebar viewport */
+  margin: 0; /* Hilangkan margin auto tengah */
+  flex-wrap: wrap;
+  box-sizing: border-box; /* Hindari overflow karena padding */
+}
+
+.about-image {
+  flex: 1 1 40%;
+  text-align: center;
+}
+
+.about-image img {
+  width: 100%; /* Gunakan seluruh lebar div image */
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+  flex: 1 1 60%;
+  padding: 1rem;
+  flex-direction: column;
+  align-items: center;     /* Pusatkan secara horizontal */
+  justify-content: center;
+  text-align: center;      /* Rata teks di tengah */
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #808080;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.about-text span {
+  color: #808080;
+  font-weight: 600;
+}

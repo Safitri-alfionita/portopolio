@@ -1,0 +1,70 @@
+.footer {
+  background-color: #f3f0ff;
+  color: #333;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-top: 4rem;
+  border-top: 1px solid #ddd;
+  width: 100vw; /* Ambil seluruh lebar viewport */
+  box-sizing: border-box;
+}
+
+.footer-container {
+  width: 100%;        /* Lebar penuh */
+  max-width: none;    /* Tidak dibatasi 1000px */
+  margin: 0;          /* Hilangkan margin tengah */
+  padding: 0 2rem;    /* Tambahkan padding jika perlu spasi kiri-kanan */
+  box-sizing: border-box;
+}
+
+.footer-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #808080;
+  margin-bottom: 1rem;
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-nav li a {
+  color: #555;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.footer-nav li a:hover {
+  color: #808080;
+}
+
+.footer-icons {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-icons a {
+  color: #777;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.footer-icons a:hover {
+  color: #808080;
+  transform: scale(1.1);
+}
+
+.footer-copy {
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 1rem;
+}

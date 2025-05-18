@@ -1,0 +1,43 @@
+.contact-section {
+  padding: 3rem 2rem;
+  text-align: center;
+  width: 100vw;              /* Ambil seluruh lebar layar */
+  margin: 0;                 /* Hilangkan margin default */
+  box-sizing: border-box;   /* Hindari overflow karena padding */
+  background-color: #D3D3D3; /* Opsional: agar kontras dan terlihat jelas */
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #808080;
+}
+
+.contact-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  transition: transform 0.3s ease, color 0.3s;
+  text-decoration: none;
+}
+
+.contact-icon span {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: #333;
+}
+
+.contact-icon:hover {
+  transform: scale(1.1);
+  color: #000;
+}

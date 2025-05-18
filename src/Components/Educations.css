@@ -1,0 +1,70 @@
+.edu-container {
+  padding: 3rem 2rem;
+  width: 100vw; /* Ambil lebar penuh viewport */
+  margin: 0; /* Hilangkan margin auto */
+  box-sizing: border-box; /* Hindari overflow dari padding */
+  background-color: #DCDCDC; /* Opsional: beri latar belakang jika perlu */
+}
+
+.edu-container h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 2.5rem;
+  color: black;
+}
+
+.edu-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.edu-box {
+  flex: 1 1 300px; /* Responsive card width */
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.edu-box:hover {
+  transform: translateY(-5px);
+}
+
+.edu-box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: black;
+}
+
+.edu-item {
+  margin-bottom: 1.2rem;
+}
+
+.edu-item h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.degree {
+  color: #696969;
+  font-weight: 500;
+}
+
+.year {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 0.5rem;
+}
+
+.desc {
+  font-size: 0.95rem;
+  color: #444;
+}
