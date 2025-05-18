@@ -1,12 +1,14 @@
 import './App.css';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import About from './components/About';
-import Projects from './components/Projects';
+
+import Navbar from './Components/Navbar';
+import Home from './Components/Home';
+import About from './Components/About';
+import Projects from './Components/Projects';
 import Skill from './Components/Skill';
 import Education from './Components/Educations';
 import Contacts from './Components/Contacts';
 import Footers from './Components/Footers';
+
 
 function App() {
   return (
