@@ -7,7 +7,7 @@ function Educations() {
     {
       title: 'STMIK Mardira Indonesia',
       degree: 'S1 Teknik Informatika',
-      year: '2021 - Sekarang',
+      year: '2022 - Sekarang',
     },
     {
       title: 'SMk kP 2 MARGAHAYU',
